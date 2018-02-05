@@ -1,0 +1,9 @@
+<form>
+  <input (change)="setFile($event)" type="file" name="file">
+  <br>
+  <input type="text" name="title" #title>
+  <br>
+  <textarea name="description" #description></textarea>
+  <br>
+  <button type="submit" (click)="startUpload()">Upload</button>
+</form>
